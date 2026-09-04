@@ -1,4 +1,4 @@
-name: Deploy SkillBridge to GitHub Pages
+name: Deploy GigBridge to GitHub Pages
 
 on:
   push:
