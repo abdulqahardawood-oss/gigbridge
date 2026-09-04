@@ -1,11 +1,11 @@
 {
-  "name": "gigbridge",
+  "name": "skillbridge",
   "version": "0.0.0",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
-      "name": "gigbridge",
+      "name": "skillbridge",
       "version": "0.0.0",
       "dependencies": {
         "framer-motion": "^13.1.1",

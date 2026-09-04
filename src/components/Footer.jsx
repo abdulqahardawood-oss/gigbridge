@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaXTwitter ,FaLinkedinIn} from "react-icons/fa6";
+import { FaXTwitter, FaLinkedinIn } from "react-icons/fa6";
 
 const navLinks = [
   { id: 1, label: "How it Works" },
@@ -91,15 +91,16 @@ const Footer = () => {
         viewport={{ once: true, amount: 0.3 }}
       >
         <div className="flex flex-col items-start justify-between gap-10 lg:flex-row lg:items-center">
+
           {/* Brand */}
           <motion.div variants={item} className="flex flex-col gap-3">
             <div className="flex items-center gap-2">
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-orange-500 text-xs font-black tracking-tight text-white">
-                SB
+                GB
               </div>
 
               <span className="text-lg font-bold text-white">
-                SkillBridge
+                GigBridge
               </span>
             </div>
 
@@ -135,30 +136,29 @@ const Footer = () => {
             variants={item}
             className="flex items-center gap-3"
           >
-           <motion.a
-  href="https://x.com/damlodotdev"
-  target="_blank"
-  rel="noopener noreferrer"
-  aria-label="X / Twitter"
-  whileHover={{
-    scale: 1.1,
-    y: -2,
-  }}
-  whileTap={{ scale: 0.95 }}
-  transition={{
-    duration: 0.2,
-    ease: EASE,
-  }}
-  className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-gray-300 transition-colors duration-200 hover:border-orange-500/40 hover:bg-orange-500/10 hover:text-orange-400"
->
-  <FaXTwitter className="text-sm" />
-</motion.a>
+            <motion.a
+              href="https://x.com/damlodotdev"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="X / Twitter"
+              whileHover={{
+                scale: 1.1,
+                y: -2,
+              }}
+              whileTap={{ scale: 0.95 }}
+              transition={{
+                duration: 0.2,
+                ease: EASE,
+              }}
+              className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-gray-300 transition-colors duration-200 hover:border-orange-500/40 hover:bg-orange-500/10 hover:text-orange-400"
+            >
+              <FaXTwitter className="text-sm" />
+            </motion.a>
 
             <motion.a
-            href="https://www.linkedin.com/in/whannou-damilola-59b494339?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-  target="_blank"
-  rel="noopener noreferrer"
-              
+              href="https://www.linkedin.com/in/whannou-damilola-59b494339?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Linkedin"
               whileHover={{
                 scale: 1.1,
@@ -188,8 +188,9 @@ const Footer = () => {
           className="flex flex-col items-start justify-between gap-4 pt-6 pb-8 sm:flex-row sm:items-center"
         >
           <p className="text-sm text-gray-500">
-  © {new Date().getFullYear()} SkillBridge. All rights reserved.
-</p>
+            © {new Date().getFullYear()} GigBridge. All rights reserved.
+          </p>
+
           <div className="flex items-center gap-6">
             {legalLinks.map((link) => (
               <a

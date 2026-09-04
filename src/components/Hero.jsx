@@ -178,7 +178,7 @@ const Hero = () => {
           <motion.img
             src={damlopic}
             alt="Preview of GigBridge on mobile"
-            className="h-72 w-full rotate-[-4deg] rounded-3xl object-cover shadow-2xl shadow-orange-500/10 sm:h-96 lg:h-125 lg:w-auto"
+            className="h-auto w-full max-w-[320px] -rotate-3 rounded-3xl object-contain shadow-2xl shadow-orange-500/10 sm:max-w-sm sm:rotate-[-4deg] lg:h-125 lg:w-auto lg:max-w-lg"
             animate={{
               y: [0, -12, 0],
             }}
