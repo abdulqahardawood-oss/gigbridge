@@ -198,13 +198,7 @@ const Features = () => {
         >
           <div className="grid gap-10 lg:grid-cols-[1.3fr_1fr] lg:items-center">
             <div>
-              <motion.div
-                variants={ctaItem}
-                className="inline-flex w-fit items-center gap-2 rounded-full border border-orange-500/40 bg-orange-500/10 px-3 py-1.5 text-sm text-orange-400"
-              >
-                🔥 100+ already on the list
-              </motion.div>
-
+             
               <motion.h1
                 variants={ctaItem}
                 className="mt-4 text-4xl font-black leading-[1.05] text-white md:text-5xl"
